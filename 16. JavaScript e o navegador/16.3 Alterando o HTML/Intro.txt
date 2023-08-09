@@ -1,0 +1,13 @@
+Alterando o HTML
+
+Podemos mudar quase tudo através da DOM, adicionar, removar e clonar são possíveis, utilizando métodos como insertBefore, appendChild, replaceChild
+
+insertBefore 
+Insere um nó antes do nó de referência do método,onde precisamos de um elemento para ser adicionado, o elemento que terá o outro elemento adicionado antes dele e o elemento pai destes dois.
+
+appendChild 
+Adiciona um nó após todos os elementos do elemento pai especificado.
+
+replaceChild
+Repõe um antigo elemento no Dom, com um novo, alterando o mesmo
+

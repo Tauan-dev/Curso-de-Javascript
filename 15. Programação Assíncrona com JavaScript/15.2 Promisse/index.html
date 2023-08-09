@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Promises</h1>
+    <p>
+      As promises são ações assíncronas que podem produzir um valor em algum
+      momento no código, uma forma de dizer a linguagem que um valor pode estar
+      presente em um futuro do código. O objeto das promises é "Promise",
+      "resolve" é o método que resolve uma promise e o then é o que faz ela
+      poder ser executada em um ponto futuro
+      <li>Falha nas promises</li>
+      Uma Promise pode falhar, podemos reter esse erro com um método chamado
+      catch. Com ele podemmos exibir o erro no console, por exemplo, e fazer o
+      debug no código.
+      <li>rejeitando as promisses</li>
+      Além do resolve tem o metodo reject. Quando determinada lógica não
+      satisfaz nosso programa, podemos ir para outra com o reject, ao invés do
+      resolve. Resolve e reject terminam a Promise, ou seja, não podemos chamar
+      mais o then, por exemplo. Ou seja caso o caminho feito pela lógica não satisfaça, podemos induzir o erro
+      <li>Resolvendo várias Promises</li>
+      Com o método all,podemos resolver várias promises de uma vez só, ou seja passamos elas por array e quando a última for resolvida, receberemos a resposta
+    </p>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+A web: Protocolos 
+
+Um protocolo é yma form ade comunicação entre computadores através da rede, o HTTP, serve parea nés solicitarmos arquivos, imagens e etc(Hyper Text Transfer Protocol), podemos acessar sites graças ao protocolo HTTP
+SMTP = protocolo para enviar e-mail
+TCP = protocolo de transferência 
+
+URL
+
+Cada arquivo que carrega no navegador é nomeado por uma URL, a URL(Uniform Resource Locator) pode ser dividida em três partes: protocolo,servidor e arquivo.
+onde por exemplo:
+http://www.horadecodar.com.br/index.html
+o http = protocolo
+www.horadecodar.com.br = servidor (DNS para um IP)
+index.html = arquivo acessado 
+
+HTML  
+
+HTML (Hyper Text Markup Language) é uma linguagem de marcação; é responsável pelos textos e elementos nque vemos na tela ao acessar uma página web.
+As tags do HTML criam: títulos, parágrafos, imagens, listas e etc. Uma tag é definida por <div></div>;
+Obs: algumas tags não possuem fechamento, mas na maioria faz parte do padrão de definição as tags de fechamento.
+Todo documento HTML tme sempre duas partes importantes: head e body, o head vai servir para as configurações do documento, tais quais links de folha de estilo, ou até de scripts de JavaScript. 
+Tags de configuração: meta, link
+O body serve para os elementos(tags), ou seja a parte visual do código do documento.
+Tags do HTML :
+
+Estrutura básica de HTML
+html = Esta tag é o elemento
+
+TAGS de comentário
+<!--  --> = comenta o código 
+
+TAGS estruturais
+header = Essa tag define um cabeçalho, portanto, todo conteúdo que estiver dentro dela faz parte de um cabeçalho, podendo ser utilizado dentro de outras sessões. Obs: Não confunfir com a tag head
+main = Representa o conteúdo principal do seu corpo, ou seja, o conteúdo relacionado diretamente com o tópico central da página ou com a funcionalidade cenrtal da aplicação
+footer = Essa tag define um rodapé para a página, geralmente utilizada no final da página
+section = Define uma sessão para sua página
+article = Define um artigo da sua página, onde são utilizadas para separ o conteúdo da sua página. Muito utilizado por blogs ou páginas de conteúdo
+aside = Representa uma seção de uma página, cujo conteúdo é tangencialmente relacionado ao conteúdo do seu entorno, que poderia ser considerado separado do conteúdo
+nav = Essa tag define um conteúdo de navegação, portanto é muito utilizado em conjunto com listas e na criação de menus 
+div  = Define uma divisão da página. Desta forma, funciona como um container para conteúdo de fluxo. Uma vez que não possui um valor semântico, é muito utilizado para organizar melhor o conteúdo.
+
+
+TAGS de título
+h1 e suas variações(h2,h3,h4...) = Títulos com seus respectivos valores hierárquicos, que vai do maior ao menor. 
+
+
+TAGS de texto :
+p = principal tag de texto, compõe um parágrafo.
+span = Apesar de ter uma funcionalidade e características parecidas com os parágrafos, costumam ser utilizadas apenas para pequenas informações, como legendas de um formulário, legendas de uma imagem, etc. Também pode ser utilizada para formar um container.
+pre = Tag utilizada para representar texto pré-formatado. Muito utilizada para inserir códigos
+b = Transforma o conteúdo em negrito
+i = Transforma o conteúdo em itálico
+<br/> = Tag que não necessita de fechamento, executa a função de quebra de linha
+<hr/> = Não necessita de fechamento, ela forma uma linha horizontal 
+
+
+TAGS de lista
+ol = cria uma lista ordenada
+ul = cria uma lista não ordenada
+li = inclue elementos dentro das listas  
+
+ATRIBUTOS
+
+class = Atribui uma classe ao elemento(uma classe pode ser utilizada para um ou mais elementos)
+id = Atribui a um id ao elemento(um id deve ser único, ou seja atribuído a um único elemento)
+
+HTML e o JavaScript
+
+Podemos utilizar JavaScript no HTML por meio da tag script, ou linkar uma arquivo .js  por meio de script com o atributo src (froma mais utilizada)
+Algumas tags HTML aceitam atributos que executam JS, mas não é muito utilizado.
+Lembrando que sempre linkamos um arquivo externo, estamos chamando ele via protocolo HTTP

@@ -1,0 +1,18 @@
+Quando uma página web é requisitada , ela recebe um texto que é transformado em uma estrutura HTML, onde as atgs vão se aninhando uma às outras, formando uma estrutura em que elementos ficam dentro dos outros.
+Essa estrutura tem uma representação exatamente iogual para o JS chamada de DOM, que significa Document Object Model, e por meio do JS podemos acessar cada um destes elementos do HTML através do DOM
+
+O DOM 
+Podemos mudar completamente uma página HTML através do DOM, é possível alterar elementos, atributos, CSS, além de alterar, podemos adicionar e também remover elementos, e permite criar eventos na página como animações 
+
+A árvore do DOM
+o documento HTML seria a árvore completa, a raiz da árvore é o Document (só existe uma raiz), cada elemento da árvore é chamado de node (nó) e os conteúdos como texto são chamados de leaf nodes (folhas)
+
+Movendo-se através do DOM
+Podemos acessar todos elementos a partir de document.body e a partir dele vamos entrando nos childNodes, e acessando as propriedades que nos interessam
+
+Encontrando elementos
+Podemos encontrar elementos de uma forma mais fácil do que se movimentando pelo DOM, como no HTML temos tags, classes e ids, o Javascript nos possibilita utilizar estas características para encontrar o que desejamos;
+Existe alguns métodos para isto: getElementsByTagName, getElementsById, getElementsByClassName e o querySelector
+
+Encontrando elementos por query:
+É um método que se assemelha a grande funcionalidade do jQuery, que permite encontrar elementos pelo seus seletores de CSS.

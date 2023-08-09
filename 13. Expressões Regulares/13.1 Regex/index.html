@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="script.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Expressões regulares</h1>
+    <p>
+      as expressões regulares são formas de encontrar padrões em uma string,
+      onde por exemplo pode ser validado se a mesma só tem números. Ao invés de
+      ser criados funções complexas, podemos encontrar dados em texto por meio
+      das expressões regulares, também de chamdo de regex.
+      <li>Criando uma expressão regular</li>
+      As expressões regulares no JS são um tipo de objeto, que pode ser
+      instanciado de duas formas : New RegExp e /.../
+      <li>Verificando padrões com regex</li>
+      Depois da definição do padrão por meio da regex, utiliza o método test()
+      para ser verificado se o padrão é retornado, com isso vamos receber de
+      resposta true or false, ou seja é verificado na string se o valor
+      registrado entre // ou com o new RegExp está lá, retornando verdadeiro ou
+      falso
+      <li>Conjunto de caracteres</li>
+      Podemos definir um conjunto de caracteres para encrontrar por regex, pondo
+      entre [], com um traço podemos definir um intervalo também
+      <li>Caracteres especiais</li>
+      <ul>
+        <li>\d - Qualquer dígito de caracteres</li>
+        <li>\w - Um caractere alfanumérico("teste")</li>
+        <li>\s - Qualquer caractere de espaço em branco</li>
+        <li>\D - Caracteres que não são dígitos</li>
+        <li>\W - Caractere que não seja espaço em branco</li>
+        <li> . - Qualquer n caractere, menos nova linha</li>
+      </ul>
+      <li>Operador not</li>
+      Podemos escrever um set que aceitam tudo, menos alguns caracteres com o not, lembrando que combinações são aceitas, o negado é apenas se bate com o set.
+      <li>Operador ?</li>
+      Faz com que o digito anterior ao operador seja opcional
+      <li>Ocorrência precisa</li>
+      Inserir o número de ocorrência entre {} para delimitar o número de ocorrência
+      além do método test, tem os métodos exec e math que funcionam da mesma forma
+      <li>Choice Patern</li>
+      Podemos colocar uma lista na regex que funciona como um || (or) das condicionais
+      <li>Validação de dominío</li>
+</html>
